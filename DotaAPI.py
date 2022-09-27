@@ -6,7 +6,7 @@ import secret
 # Coinmarket API Docs https://coinmarketcap.com/api/documentation/v1/
 
 #Basic test
-url = 'https://api.opendota.com/api/matches/76561197985208790?api_key=72a1dfd-940c-4e19-91ab-6400a559a07f'
+url = secret.DOTA_KEY
 ifttt_webhook_url = 'https://maker.ifttt.com/trigger/dota_discord_bot/with/key/bN4U9HGzPvet2cpT5OBzVF'
 
 headers = {
